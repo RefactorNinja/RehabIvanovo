@@ -7,7 +7,7 @@ import { StickyHelpButton } from "../components/layout/StickyHelpButton";
 
 export function App() {
   return (
-    <>
+    <div className="pb-24 md:pb-0">
       <HeroSection />
       <main>
         <ValuesSection />
@@ -16,6 +16,6 @@ export function App() {
       </main>
       <FooterSection />
       <StickyHelpButton />
-    </>
+    </div>
   );
 }
