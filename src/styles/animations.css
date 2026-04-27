@@ -1,0 +1,7 @@
+.morph-press {
+  transition: transform 180ms ease;
+}
+
+.morph-press:active {
+  transform: scale(0.97);
+}
