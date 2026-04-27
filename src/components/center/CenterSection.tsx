@@ -8,7 +8,10 @@ export function CenterSection() {
   return (
     <Section className="py-16 md:py-20">
       <PageContainer>
-        <SectionTitle title="Наш центр" subtitle="Домашняя атмосфера и поддержка в Иванове." />
+        <SectionTitle
+          title="Наши центры"
+          subtitle="Филиалы по всей России — домашняя атмосфера и поддержка рядом с вами."
+        />
         <GlassCard>
           <p className="text-slate-700">{SITE_CONTENT.center}</p>
         </GlassCard>

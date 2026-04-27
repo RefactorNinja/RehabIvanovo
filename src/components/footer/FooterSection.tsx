@@ -9,7 +9,6 @@ export function FooterSection() {
       <PageContainer>
         <ContactBlock />
         <div className="mt-6 flex flex-wrap gap-3">
-          <SocialMorphButton href={CONTACTS.yandexMaps} label="Мы на Яндекс картах" />
           <SocialMorphButton href={CONTACTS.vk} label="Наше сообщество Вконтакте" />
         </div>
       </PageContainer>
